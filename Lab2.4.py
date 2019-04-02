@@ -1,5 +1,7 @@
 k=int(input())
 sp=[]
+if k<0:
+    print ("Вы ввели отрицательное кол-во")
 for i in range(k):
     sp.append(int(input()))
 print(k)
