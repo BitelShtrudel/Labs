@@ -1,7 +1,7 @@
 k=int(input())
 sp=[]
-if k<0:
-    print ("Вы ввели отрицательное кол-во")
+if k<9:
+    print ("Вы ввели недопустимое значение")
 for i in range(k):
     sp.append(int(input()))
 print(k)
